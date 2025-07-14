@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Eliminar {{ book.title }}</title>
+  <title>Eliminar {{ book.title }}</title>
 </head>
+
 <body>
-    <h1>Eliminar {{ book.title }}</h1>
-    <p>Are you sure you want to delete this book?</p>
-    <form method="post">
-        {% csrf_token %}
-        <button type="submit">Yes, delete</button>
-    </form>
-    <a href="{% url 'book_detail' book.id %}">Cancel</a>
+  <h1>Eliminar {{ book.title }}</h1>
+  <p>Are you sure you want to delete this book?</p>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit">Yes, delete</button>
+  </form>
+  <a href="{% url 'book_detail' book.id %}">Cancel</a>
 </body>
+
 </html>
