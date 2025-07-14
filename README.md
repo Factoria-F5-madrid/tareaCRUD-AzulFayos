@@ -2,6 +2,10 @@
 
 Está todo traducido del tutorial básico, así que las URLs también han cambiado
 
+## Documento con las respuestas para la primera parte
+
+https://docs.google.com/document/d/1mFkyJ5v7qDBqA7hUhWEEGi4A_6CTX3kci4L9ImHTbb0/edit?tab=t.0
+
 ## URLs
 
 1. http://localhost:8000/admin/ para agregar los libros
